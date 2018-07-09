@@ -14,4 +14,4 @@ The app has only 2 routes as of now --
 ## To run the app - 
 * `git clone` the repo
 * `npm i`
-* start the node server - `npm start`
+* start the node server - `npm run start`
