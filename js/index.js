@@ -28,7 +28,7 @@ function renderResults(results) {
 
     thisProduct.appendChild(createDivWithText(name, "product-name"));
     thisProduct.appendChild(createDivWithImage(image));
-    
+    thisProduct.appendChild(createBuyButton('Buy Now', "buy-button"));
     document.body.appendChild(thisProduct);
     thisProduct.classList.add('product-block');
   }
@@ -37,6 +37,15 @@ function renderResults(results) {
 
 function divFactory() {
   return document.createElement('div');
+}
+
+function createBuyButton(text, className) {
+  var btn = document.createElement('button');
+  btn.innerText = text;
+  if (className) {
+    btn.classList.add(className);
+  }
+  return btn;
 }
 
 function createDivWithText(text, className) {
