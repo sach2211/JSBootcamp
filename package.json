@@ -1,0 +1,20 @@
+{
+  "name": "vanillajs",
+  "version": "1.0.0",
+  "description": "A project to teach beginners web technologies",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "bootcamp",
+    "Day2",
+    "basic-web-arch"
+  ],
+  "author": "sachin-chopra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
